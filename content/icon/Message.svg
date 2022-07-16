@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="32px" viewBox="0 0 132.296 143.937">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-7.651" y1="-16.916" x2="-7.641" y2="-16.916" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ececec" stop-opacity="0.631"/>
+      <stop offset="1" stop-color="#dc57ff" stop-opacity="0.631"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-7.651" y1="-16.916" x2="-7.641" y2="-16.916" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ececec" stop-opacity="0.388"/>
+      <stop offset="1" stop-color="#fac4ff" stop-opacity="0.388"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <path id="路径_3" data-name="路径 3" d="M903.469,2267.312a5.239,5.239,0,0,0-4.943-4.97c-18.5-1.947-83.617-8.812-104.156-10.966a6.046,6.046,0,0,0-4.376,1.22,4.8,4.8,0,0,0-1.879,3.738v112.139a5.237,5.237,0,0,0,4.944,4.957c18.5,1.947,83.616,8.812,104.156,10.966a5.994,5.994,0,0,0,4.375-1.233,4.757,4.757,0,0,0,1.879-3.725Z" transform="translate(-788.115 -2251.34)" clip-rule="evenodd"/>
+    </clipPath>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 104 134">
+      <image width="104" height="134" xlink:href="data:image/png;base64,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"/>
+    </pattern>
+  </defs>
+  <g id="Message" transform="translate(-1364.404 -1691.721)">
+    <g id="组_7" data-name="组 7" transform="translate(1364.404 1691.721)" opacity="0.89">
+      <g id="组_1" data-name="组 1" transform="translate(16.942)">
+        <path id="路径_1" data-name="路径 1" d="M903.469,2267.312a5.239,5.239,0,0,0-4.943-4.97c-18.5-1.947-83.617-8.812-104.156-10.966a6.046,6.046,0,0,0-4.376,1.22,4.8,4.8,0,0,0-1.879,3.738v112.139a5.237,5.237,0,0,0,4.944,4.957c18.5,1.947,83.616,8.812,104.156,10.966a5.994,5.994,0,0,0,4.375-1.233,4.757,4.757,0,0,0,1.879-3.725Z" transform="translate(-788.115 -2251.34)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="组_2" data-name="组 2" transform="translate(8.241 4.774)">
+        <path id="路径_2" data-name="路径 2" d="M903.469,2267.312a5.239,5.239,0,0,0-4.943-4.97c-18.5-1.947-83.617-8.812-104.156-10.966a6.046,6.046,0,0,0-4.376,1.22,4.8,4.8,0,0,0-1.879,3.738v112.139a5.237,5.237,0,0,0,4.944,4.957c18.5,1.947,83.616,8.812,104.156,10.966a5.994,5.994,0,0,0,4.375-1.233,4.757,4.757,0,0,0,1.879-3.725Z" transform="translate(-788.115 -2251.34)" fill-rule="evenodd" fill="url(#linear-gradient-2)"/>
+      </g>
+      <g id="组_5" data-name="组 5" transform="translate(0 10.847)">
+        <g id="组_4" data-name="组 4" clip-path="url(#clip-path)">
+          <g id="组_3" data-name="组 3" transform="translate(0 -0.005)">
+            <rect id="矩形_1" data-name="矩形 1" width="115.354" height="133.095" fill="url(#pattern)"/>
+          </g>
+        </g>
+      </g>
+      <g id="组_6" data-name="组 6" transform="translate(67.655 31.627)">
+        <path id="路径_4" data-name="路径 4" d="M3280.8,2850.067a5,5,0,0,0-4.992-5.009h-16.64a5,5,0,0,0-4.992,5.009V2905.7l13.586-14.9,13.039,14.9Z" transform="translate(-3254.177 -2845.058)" fill="rgba(255,255,255,0.67)" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

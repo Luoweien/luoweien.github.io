@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+ RewriteEngine on
+ErrorDocument 404 /letontop_kernel/letontop_404.php
+ErrorDocument 403 /letontop_kernel/403.shtml
+</IfModule>
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+deny from 27.37.234.42

@@ -1,0 +1,216 @@
+@keyframes mohuo {
+    from{
+        background-color: #00000001;
+        backdrop-filter: blur(0px);
+        -moz-backdrop-filter: blur(0px);
+        -webkit-backdrop-filter: blur(0px);
+    }to{
+        background-color: #00000033;
+        backdrop-filter: blur(1px);
+        -moz-backdrop-filter: blur(1px);
+        -webkit-backdrop-filter: blur(1px);
+    }
+}
+@keyframes mohun {
+    from{
+        background-color: #00000033;
+        backdrop-filter: blur(1px);
+        -moz-backdrop-filter: blur(1px);
+        -webkit-backdrop-filter: blur(1px);
+    }to{
+        background-color: #00000001;
+        backdrop-filter: blur(0px);
+        -moz-backdrop-filter: blur(0px);
+        -webkit-backdrop-filter: blur(0px);
+    }
+}
+@keyframes lighto {
+    from{
+        background-color: #00000001;
+        backdrop-filter: blur(0px);
+        -moz-backdrop-filter: blur(0px);
+        -webkit-backdrop-filter: blur(0px);
+    }to{
+        background-color: #000000cc;
+        backdrop-filter: blur(10px);
+        -moz-backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+}
+@keyframes lightn {
+    from{
+        background-color: #000000cc;
+        backdrop-filter: blur(10px);
+        -moz-backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }to{
+        background-color: #00000001;
+        backdrop-filter: blur(0px);
+        -moz-backdrop-filter: blur(0px);
+        -webkit-backdrop-filter: blur(0px);
+    }
+}
+
+@keyframes logino {
+    from{
+        transform: scale(0);
+        top:-10%;
+        right: -50%;
+        margin-right: -10%;
+        background-color: #ffffff00;
+        opacity: 0;
+    }to{
+        transform: scale(1);
+        padding-bottom: 20px;
+        top:40%;
+        right: 100%;
+        margin-right: -90%;
+        background-color: white;
+        opacity: 1;
+    }
+}
+@keyframes loginn {
+    from{
+        transform: scale(1);
+        padding-bottom: 20px;
+        top:40%;
+        right: 100%;
+        margin-right: -90%;
+        background-color: white;
+        opacity: 1;
+    }to{
+        transform: scale(0);
+        top:-10%;
+        right: -50%;
+        margin-right: -10%;
+        background-color: #ffffff00;
+        opacity: 0;
+    }
+}
+
+@keyframes qro {
+    from{
+        width: 0%;
+        max-width:0px;
+        margin:0 auto;
+        text-align: center;
+        transform: scale(0);
+        opacity: 0;
+    }to{
+        width: 100%;
+        max-width:200px;
+        margin:0 auto;
+        text-align: center;
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+}
+@keyframes qrn {
+    from{
+        width: 100%;
+        max-width:200px;
+        margin:0 auto;
+        text-align: center;
+        transform: scale(1);
+        opacity: 1;
+    }to{
+        width: 0%;
+        max-width:0px;
+        margin:0 auto;
+        text-align: center;
+        transform: scale(0);
+        opacity: 0;     
+    }
+    
+}
+@keyframes dengludoudong {
+    0%{
+        margin-right: -90%;
+    }20%{
+        margin-right: -85%;
+    }40%{
+        margin-right: -95%;
+    }60%{
+        margin-right: -85%;
+    }80%{
+        margin-right: -95%;
+    }100%{
+        margin-right: -90%;
+    }
+}
+@keyframes about {
+    from{
+        margin-top: 47px;
+        opacity: 0;
+    }to{
+        margin-top: 17px;
+        opacity: 1;
+    }
+}
+@keyframes messages {
+    from{
+        margin-top: 0px;
+        opacity: 0;
+    }to{
+        margin-top: -18px;
+        opacity: 1;
+    }
+}
+@keyframes lightbox-cancelon {
+    from{
+        margin-top: -50px;
+    }to{
+        margin-top: 0px;
+    }
+}
+@keyframes lightbox-canceloff {
+    from{
+        margin-top: 0px;
+    }to{
+        margin-top: -50px;
+    }
+}
+@keyframes lightbox-tollon {
+    from{
+        margin-bottom: -80px;
+    }to{
+        margin-bottom: 0px;
+    }
+}
+@keyframes lightbox-tolloff {
+    from{
+        margin-bottom: 0px;
+    }to{
+        margin-bottom: -80px;
+    }
+}
+@keyframes lightbox-imgon {
+    from{
+        opacity: 0;
+        transform: scale(.1);
+    }to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes lightbox-imgoff {
+    from{
+        opacity: 1;
+        transform: scale(1);
+    }to{
+        opacity: 0;
+        transform: scale(.1);
+    }
+}
+
+@keyframes index-picture {
+    0%{
+        opacity: 0;
+    }40%{
+        opacity: 0;
+    }100%{
+        opacity: 1;
+    }
+    
+}

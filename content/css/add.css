@@ -1,0 +1,188 @@
+.add{
+    width: 95%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.noselect {
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+    
+    -khtml-user-select: none; /* Konqueror */
+    
+    -moz-user-select: none; /* Firefox */
+    
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    
+    user-select: none; /* Non-prefixed version, currently
+    
+    not supported by any browser */
+    
+}
+.newsvg {
+    float: left;
+}
+.edit{
+    background-color:#FBFBFB;
+    border-radius:5px;
+    margin-top:10px;
+    text-align: center;
+}
+.edits{
+    width: 90%;
+    background: none;
+    height: 50px;
+}
+.newpic{
+    position: relative;
+    width: 65px;
+    height: 60px;
+    float: left;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin: 10px;
+}
+
+.newpic p{
+    font-size: 10px;
+}
+.upimgsh{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.uploadimg{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 65px;
+    height: 65px;
+    opacity: 0;
+}
+.fixfloat{
+    clear: both;
+}
+.metainfo{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.metainfo-more{
+    float: left;
+    position: relative;
+}
+.metainfo-submit{
+    float: right;
+}
+.allview{
+    font-size:12px;
+    color:#919191;
+    float:right;
+    margin-right:20px;
+    margin-top:3px;
+}
+.select {
+    width: auto;
+    line-height: 30px;
+    padding-left: 6px;
+    padding-right: 6px;
+    height: 30px;
+    background-color: #fbfbfb;
+    position: absolute;
+    left: 0;
+    border-radius: 30px;
+}
+select {
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    width: auto;
+    background: none;
+}
+.selectinput{
+    outline: none;
+    border:none;
+    background: none;
+}
+.fabu{
+    padding: 5px 16px;
+    border-radius: 50px;
+    background-color: #00a2ff;
+    color: white;
+    cursor: pointer;
+}
+
+.fabu:active{
+    background-color: #0090e3;
+    transform: scale(.96);
+}
+
+.fabudonghua{
+    width: 150px;
+    top: 50%;
+    position: absolute;
+    background: #0000003d;
+    height: 150px;
+    z-index: 9999;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    display: flex;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(10px);
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: all .2s;
+}
+.fabudonghua img{
+    width: 50px;
+    animation: fabudonghua 2.5s infinite linear;
+}
+@keyframes fabudonghua {
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+/*----------------450px-------------------*/
+@media screen and (min-width:0px) {
+    .add{
+        padding: 4%;
+        box-sizing: border-box;
+        background-color: white;
+        width: 100%;
+        margin-top: -18px;
+        box-shadow: 0px 2px 2px 0px #f1f1f1;
+        margin-bottom: 30px;
+        border-radius: 0 0 5px 5px;
+    }
+    .add-shell{
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+/*----------------650px-------------------*/
+@media screen and (min-width:450px) {
+    .add{
+        padding: 2%;
+    }
+}
