@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<configs><config type="服务器地址"><localhost>localhost</localhost></config><config type="用户名"><user>root</user></config><config type="密码"><password>1234</password></config><config type="数据库名称"><dbname>letonzone</dbname></config><config type="登录名称"><username>admin</username></config><config type="登录密码"><userpass>123456</userpass></config><config type="时区"><usertizo>Asia/Shanghai</usertizo></config><config type="语言"><userlang>zh_CN</userlang></config></configs>
